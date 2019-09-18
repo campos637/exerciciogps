@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gps_APP</string>
+    <string name="permission_text">Grant GPS permission</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="disable_gps">Disable GPS</string>
+    <string name="start_route">Start Route</string>
+    <string name="finish_route">Finish Route</string>
+    <string name="travelled_distance">Travelled\nDistance:</string>
+    <string name="elapsed_time">Elapsed\nTime:</string>
+    <string name="what">What do you want to find?</string>
+    <string name="permission_given">Permission has already been given.</string>
+    <string name="permission_not_given">To perform this action you must authorize the use of GPS.</string>
+    <string name="no_gps_no_app">We need your permission to run the app correctly.</string>
+    <string name="default_gps">Please, enable GPS to start.</string>
+    <string name="default_route">GPS running. Click Start Route to begin.</string>
+    <string name="elapsed_time_and_distance">You walked %s meters in %s seconds.</string>
+    <string name="didnt_move">You didn\'t move...</string>
+    <string name="uri_mapa">geo: %f, %f?q=%s</string>
+    <string name="no_gps_no_map">You must turn on GPS at least once to use this feature.</string>
+    <string name="meters">%d meters</string>
+</resources>

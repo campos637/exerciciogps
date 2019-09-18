@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gpsTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:padding="@dimen/text_padding"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/gpsPermissionButton"
+        android:layout_row="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/shadow"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:text="@string/permission_text"
+        android:textColor="@android:color/background_light"
+        />
+
+    <Button
+        android:id="@+id/startGpsButton"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/shadow"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:text="@string/enable_gps"
+        android:textColor="@android:color/background_light"/>
+
+    <Button
+        android:id="@+id/stopGpsButton"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/shadow"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:text="@string/disable_gps"
+        android:textColor="@android:color/background_light"/>
+
+    <Button
+        android:id="@+id/startRouteButton"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/shadow"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:text="@string/start_route"
+        android:textColor="@android:color/background_light"/>
+
+    <Button
+        android:id="@+id/stopRouteButton"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/shadow"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:text="@string/finish_route"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/distanceLabelTextView"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:elevation="@dimen/elevation"
+        android:gravity="right|center_horizontal"
+        android:lines="2"
+        android:padding="@dimen/text_padding"
+        android:text="@string/travelled_distance"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_columnSpan="3"
+        android:layout_gravity="center|fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/text_padding"
+        android:text="@string/default_gps"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/timeLabelTextView"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginRight="0dp"
+        android:elevation="@dimen/elevation"
+        android:gravity="right|center_horizontal"
+        android:lines="2"
+        android:padding="@dimen/text_padding"
+        android:text="@string/elapsed_time"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+    <Chronometer
+        android:id="@+id/timeChronometer"
+        android:layout_columnSpan="3"
+        android:layout_gravity="center|fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/text_padding"
+        android:text="@string/default_gps"
+        android:textColor="@color/colorAccent"
+        />
+
+
+    <EditText
+        android:id="@+id/findEditText"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/what"
+        android:inputType="text"
+        android:padding="@dimen/text_padding"
+        android:tooltipText="@string/what" />
+
+
+    <ImageView
+        android:id="@+id/findImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="@dimen/margin_top"
+        android:padding="@dimen/text_padding"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+</GridLayout>

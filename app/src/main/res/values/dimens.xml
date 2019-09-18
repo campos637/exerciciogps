@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_weight">50</dimen>
+    <dimen name="label_weight">20</dimen>
+    <dimen name="location_weight">80</dimen>
+    <dimen name="text_padding">12dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="margin_top">36dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gps_APP</string>
+    <string name="default_gps">Bitte aktivieren Sie GPS, um zu starten.</string>
+    <string name="default_route">GPS läuft. Klicken Sie auf Route starten, um zu beginnen.</string>
+    <string name="didnt_move">Du hast dich nicht bewegt ...</string>
+    <string name="disable_gps">"GPS deaktivieren "</string>
+    <string name="elapsed_time">Verstrichene\nZeit:</string>
+    <string name="elapsed_time_and_distance">"Sie sind %s Meter in %s Sekunden gelaufen. "</string>
+    <string name="enable_gps">Aktivieren Sie GPS</string>
+    <string name="finish_route">Route beenden</string>
+    <string name="no_gps_no_app">Wir benötigen Ihre Erlaubnis, um die App korrekt auszuführen.</string>
+    <string name="no_gps_no_map">" Sie müssen GPS mindestens einmal einschalten, um diese Funktion nutzen zu können."</string>
+    <string name="permission_given">Erlaubnis wurde bereits erteilt.</string>
+    <string name="permission_not_given">Um diese Aktion auszuführen, müssen Sie die Verwendung von GPS autorisieren.</string>
+    <string name="permission_text">Erteilen Sie die GPS-Genehmigung</string>
+    <string name="start_route">Route starten</string>
+    <string name="travelled_distance">Zurückgelegte\nStrecke:</string>
+    <string name="uri_mapa">geo: %f, %f?q=%s</string>
+    <string name="what">Was möchtest du finden?</string>
+    <string name="meters">%d meters</string>
+</resources>
